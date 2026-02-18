@@ -1,0 +1,10 @@
+{
+  "id": "ai-npc-facetime",
+  "title": "AI NPC FaceTime",
+  "description": "Real-time AI NPC conversations with ElevenLabs voices and long-term memory.",
+  "version": "1.0.0",
+  "authors": [{"name": "Sereptus-777"}],
+  "scripts": ["src/main.js"],
+  "styles": ["css/style.css"],
+  "compatibility": {"minimum": "11", "verified": "12"}
+}
