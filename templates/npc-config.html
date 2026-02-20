@@ -1,0 +1,36 @@
+<form>
+    <div class="form-group">
+        <label>Personality</label>
+        <textarea name="personality" rows="4" style="width:100%;">{{personality}}</textarea>
+        <p class="hint">Describe how this NPC speaks, their mannerisms, and personality traits.</p>
+    </div>
+
+    <div class="form-group">
+        <label>Secret Lore / Knowledge</label>
+        <textarea name="secretLore" rows="4" style="width:100%;">{{secretLore}}</textarea>
+        <p class="hint">What does this NPC know? Secrets, history, quests. Players never see this.</p>
+    </div>
+
+    <div class="form-group">
+        <label>ElevenLabs Voice ID (optional)</label>
+        <input type="text" name="voiceId" value="{{voiceId}}" style="width:100%;" placeholder="Leave blank for auto-detect by gender/alignment" />
+        <p class="hint">Paste a specific ElevenLabs Voice ID to override the auto-selected voice.</p>
+    </div>
+
+    <div class="form-group">
+        <label>Memory Log (Read Only)</label>
+        <textarea rows="6" style="width:100%; opacity:0.6;" readonly>{{memoryText}}</textarea>
+    </div>
+
+    <div class="form-group">
+        <label>
+            <input type="checkbox" name="clearMemory" />
+            Wipe Memory on Save
+        </label>
+        <p class="hint">Check this to clear all conversation history for this NPC.</p>
+    </div>
+
+    <div style="text-align:right; margin-top:10px;">
+        <button type="submit"><i class="fas fa-save"></i> Save</button>
+    </div>
+</form>
