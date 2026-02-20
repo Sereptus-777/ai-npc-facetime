@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "id": "ai-npc-facetime",
     "title": "AI NPC FaceTime",
     "description": "Live AI-powered NPC conversations with voice and portrait animation.",
@@ -22,3 +23,29 @@
     "manifest": "https://raw.githubusercontent.com/Sereptus-777/ai-npc-facetime/main/module.json",
     "download": "https://github.com/Sereptus-777/ai-npc-facetime/archive/refs/heads/main.zip"
 }
+=======
+  "id": "ai-npc-facetime",
+  "title": "AI NPC FaceTime",
+  "description": "Real-time AI NPC conversations with ElevenLabs voices and long-term memory.",
+  "version": "0.0.1",
+  "authors": [
+    {
+      "name": "Sereptus-777"
+    }
+  ],
+  "url": "https://github.com/Sereptus-777/ai-npc-facetime",
+  "manifest": "https://raw.githubusercontent.com/Sereptus-777/ai-npc-facetime/main/module.json",
+  "download": "https://github.com/Sereptus-777/ai-npc-facetime/archive/refs/heads/main.zip",
+  "readme": "https://raw.githubusercontent.com/Sereptus-777/ai-npc-facetime/main/README.md",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "12"
+  },
+  "scripts": [
+    "src/main.js"
+  ],
+  "styles": [
+    "css/style.css"
+  ]
+}
+>>>>>>> 35fbc7f5ef68cfc435acf2825a912b8d57bdb7ac

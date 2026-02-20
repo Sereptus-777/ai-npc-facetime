@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 export function registerSettings() {
     game.settings.register("ai-npc-facetime", "aiProvider", {
         name: "AI Provider",
@@ -24,11 +25,17 @@ export function registerSettings() {
     game.settings.register("ai-npc-facetime", "elevenLabsKey", {
         name: "ElevenLabs API Key",
         hint: "Your ElevenLabs API key for voice synthesis.",
+=======
+export const registerSettings = function() {
+    game.settings.register("ai-npc-facetime", "elevenLabsKey", {
+        name: "ElevenLabs API Key",
+>>>>>>> 35fbc7f5ef68cfc435acf2825a912b8d57bdb7ac
         scope: "world",
         config: true,
         type: String,
         default: ""
     });
+<<<<<<< HEAD
 
     game.settings.register("ai-npc-facetime", "voiceProvider", {
         name: "Voice Provider",
@@ -43,3 +50,13 @@ export function registerSettings() {
         default: "browser"
     });
 }
+=======
+    game.settings.register("ai-npc-facetime", "openaiKey", {
+        name: "OpenAI API Key",
+        scope: "world",
+        config: true,
+        type: String,
+        default: ""
+    });
+};
+>>>>>>> 35fbc7f5ef68cfc435acf2825a912b8d57bdb7ac
